@@ -51,7 +51,10 @@ value is not used in applying the DECAL environment.  */
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include <GL/glut.h>
+// #include <GL/glut.h>
+
+#include <GL\glew.h>
+#include <GL\freeglut.h>
 
 GLenum doubleBuffer;
 GLubyte ubImage[65536];
