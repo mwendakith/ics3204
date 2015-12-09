@@ -1,0 +1,404 @@
+0:07:00: arrival of truck no   1			Status: processing: 1, queue: 0
+0:11:35: arrival of truck no   2			Status: processing: 1, 2, queue: 0
+0:17:00: completion of truck no   1 after 0:10:00	Status: processing: 2, queue: 0
+0:18:32: arrival of truck no   3			Status: processing: 3, 2, queue: 0
+0:19:33: arrival of truck no   4			Status: processing: 3, 2, 4, queue: 0
+0:20:07: arrival of truck no   5			Status: processing: 3, 2, 4, queue: 1
+0:21:35: completion of truck no   2 after 0:10:00	Status: processing: 3, 5, 4, queue: 0
+0:21:54: arrival of truck no   6			Status: processing: 3, 5, 4, queue: 1
+0:23:56: arrival of truck no   7			Status: processing: 3, 5, 4, queue: 2
+0:26:10: arrival of truck no   8			Status: processing: 3, 5, 4, queue: 3
+0:28:32: completion of truck no   3 after 0:10:00	Status: processing: 6, 5, 4, queue: 2
+0:29:33: completion of truck no   4 after 0:10:00	Status: processing: 6, 5, 7, queue: 1
+0:31:35: completion of truck no   5 after 0:11:28	Status: processing: 6, 8, 7, queue: 0
+0:33:22: arrival of truck no   9			Status: processing: 6, 8, 7, queue: 1
+0:34:26: arrival of truck no  10			Status: processing: 6, 8, 7, queue: 2
+0:38:32: completion of truck no   6 after 0:16:38	Status: processing: 9, 8, 7, queue: 1
+0:39:03: arrival of truck no  11			Status: processing: 9, 8, 7, queue: 2
+0:39:33: completion of truck no   7 after 0:15:37	Status: processing: 9, 8, 10, queue: 1
+0:41:35: completion of truck no   8 after 0:15:25	Status: processing: 9, 11, 10, queue: 0
+0:42:10: arrival of truck no  12			Status: processing: 9, 11, 10, queue: 1
+0:42:14: arrival of truck no  13			Status: processing: 9, 11, 10, queue: 2
+0:48:13: arrival of truck no  14			Status: processing: 9, 11, 10, queue: 3
+0:48:32: completion of truck no   9 after 0:15:10	Status: processing: 12, 11, 10, queue: 2
+0:49:33: completion of truck no  10 after 0:15:07	Status: processing: 12, 11, 13, queue: 1
+0:51:35: completion of truck no  11 after 0:12:32	Status: processing: 12, 14, 13, queue: 0
+0:58:32: completion of truck no  12 after 0:16:22	Status: processing: 14, 13, queue: 0
+0:59:33: completion of truck no  13 after 0:17:19	Status: processing: 14, queue: 0
+1:00:17: arrival of truck no  15			Status: processing: 15, 14, queue: 0
+1:01:35: completion of truck no  14 after 0:13:22	Status: processing: 15, queue: 0
+1:02:31: arrival of truck no  16			Status: processing: 15, 16, queue: 0
+1:05:04: arrival of truck no  17			Status: processing: 15, 16, 17, queue: 0
+1:10:15: arrival of truck no  18			Status: processing: 15, 16, 17, queue: 1
+1:10:17: completion of truck no  15 after 0:10:00	Status: processing: 18, 16, 17, queue: 0
+1:11:26: arrival of truck no  19			Status: processing: 18, 16, 17, queue: 1
+1:12:31: completion of truck no  16 after 0:10:00	Status: processing: 18, 19, 17, queue: 0
+1:13:23: arrival of truck no  20			Status: processing: 18, 19, 17, queue: 1
+1:15:04: completion of truck no  17 after 0:10:00	Status: processing: 18, 19, 20, queue: 0
+1:16:08: arrival of truck no  21			Status: processing: 18, 19, 20, queue: 1
+1:20:06: arrival of truck no  22			Status: processing: 18, 19, 20, queue: 2
+1:20:17: completion of truck no  18 after 0:10:02	Status: processing: 21, 19, 20, queue: 1
+1:22:31: completion of truck no  19 after 0:11:05	Status: processing: 21, 22, 20, queue: 0
+1:25:04: completion of truck no  20 after 0:11:41	Status: processing: 21, 22, queue: 0
+1:25:57: arrival of truck no  23			Status: processing: 21, 22, 23, queue: 0
+1:26:05: arrival of truck no  24			Status: processing: 21, 22, 23, queue: 1
+1:29:04: arrival of truck no  25			Status: processing: 21, 22, 23, queue: 2
+1:30:17: completion of truck no  21 after 0:14:09	Status: processing: 24, 22, 23, queue: 1
+1:32:17: arrival of truck no  26			Status: processing: 24, 22, 23, queue: 2
+1:32:31: completion of truck no  22 after 0:12:25	Status: processing: 24, 25, 23, queue: 1
+1:35:57: completion of truck no  23 after 0:10:00	Status: processing: 24, 25, 26, queue: 0
+1:38:04: arrival of truck no  27			Status: processing: 24, 25, 26, queue: 1
+1:38:14: arrival of truck no  28			Status: processing: 24, 25, 26, queue: 2
+1:40:17: completion of truck no  24 after 0:14:12	Status: processing: 27, 25, 26, queue: 1
+1:42:31: completion of truck no  25 after 0:13:27	Status: processing: 27, 28, 26, queue: 0
+1:44:28: arrival of truck no  29			Status: processing: 27, 28, 26, queue: 1
+1:45:57: completion of truck no  26 after 0:13:40	Status: processing: 27, 28, 29, queue: 0
+1:50:17: completion of truck no  27 after 0:12:13	Status: processing: 28, 29, queue: 0
+1:52:31: completion of truck no  28 after 0:14:17	Status: processing: 29, queue: 0
+1:55:19: arrival of truck no  30			Status: processing: 30, 29, queue: 0
+1:55:57: completion of truck no  29 after 0:11:29	Status: processing: 30, queue: 0
+2:02:29: arrival of truck no  31			Status: processing: 30, 31, queue: 0
+2:03:32: arrival of truck no  32			Status: processing: 30, 31, 32, queue: 0
+2:05:19: completion of truck no  30 after 0:10:00	Status: processing: 31, 32, queue: 0
+2:05:28: arrival of truck no  33			Status: processing: 33, 31, 32, queue: 0
+2:10:12: arrival of truck no  34			Status: processing: 33, 31, 32, queue: 1
+2:12:02: arrival of truck no  35			Status: processing: 33, 31, 32, queue: 2
+2:12:29: completion of truck no  31 after 0:10:00	Status: processing: 33, 34, 32, queue: 1
+2:12:54: arrival of truck no  36			Status: processing: 33, 34, 32, queue: 2
+2:13:20: arrival of truck no  37			Status: processing: 33, 34, 32, queue: 3
+2:13:22: arrival of truck no  38			Status: processing: 33, 34, 32, queue: 4
+2:13:32: completion of truck no  32 after 0:10:00	Status: processing: 33, 34, 35, queue: 3
+2:15:28: completion of truck no  33 after 0:10:00	Status: processing: 36, 34, 35, queue: 2
+2:20:11: arrival of truck no  39			Status: processing: 36, 34, 35, queue: 3
+2:22:29: completion of truck no  34 after 0:12:17	Status: processing: 36, 37, 35, queue: 2
+2:23:32: completion of truck no  35 after 0:11:30	Status: processing: 36, 37, 38, queue: 1
+2:24:45: arrival of truck no  40			Status: processing: 36, 37, 38, queue: 2
+2:25:28: completion of truck no  36 after 0:12:34	Status: processing: 39, 37, 38, queue: 1
+2:28:08: arrival of truck no  41			Status: processing: 39, 37, 38, queue: 2
+2:28:15: arrival of truck no  42			Status: processing: 39, 37, 38, queue: 3
+2:28:30: arrival of truck no  43			Status: processing: 39, 37, 38, queue: 4
+2:32:29: completion of truck no  37 after 0:19:09	Status: processing: 39, 40, 38, queue: 3
+2:33:32: completion of truck no  38 after 0:20:10	Status: processing: 39, 40, 41, queue: 2
+2:35:28: completion of truck no  39 after 0:15:17	Status: processing: 42, 40, 41, queue: 1
+2:42:29: completion of truck no  40 after 0:17:44	Status: processing: 42, 43, 41, queue: 0
+2:43:32: completion of truck no  41 after 0:15:24	Status: processing: 42, 43, queue: 0
+2:45:28: completion of truck no  42 after 0:17:13	Status: processing: 43, queue: 0
+2:52:29: completion of truck no  43 after 0:23:59	Status: processing: queue: 0
+2:58:57: arrival of truck no  44			Status: processing: 44, queue: 0
+2:59:17: arrival of truck no  45			Status: processing: 44, 45, queue: 0
+3:00:45: arrival of truck no  46			Status: processing: 44, 45, 46, queue: 0
+3:01:11: arrival of truck no  47			Status: processing: 44, 45, 46, queue: 1
+3:06:01: arrival of truck no  48			Status: processing: 44, 45, 46, queue: 2
+3:08:57: completion of truck no  44 after 0:10:00	Status: processing: 47, 45, 46, queue: 1
+3:09:17: completion of truck no  45 after 0:10:00	Status: processing: 47, 48, 46, queue: 0
+3:10:45: completion of truck no  46 after 0:10:00	Status: processing: 47, 48, queue: 0
+3:15:03: arrival of truck no  49			Status: processing: 47, 48, 49, queue: 0
+3:18:57: completion of truck no  47 after 0:17:46	Status: processing: 48, 49, queue: 0
+3:19:17: completion of truck no  48 after 0:13:16	Status: processing: 49, queue: 0
+3:21:17: arrival of truck no  50			Status: processing: 50, 49, queue: 0
+3:22:52: arrival of truck no  51			Status: processing: 50, 51, 49, queue: 0
+3:24:19: arrival of truck no  52			Status: processing: 50, 51, 49, queue: 1
+3:24:24: arrival of truck no  53			Status: processing: 50, 51, 49, queue: 2
+3:25:03: completion of truck no  49 after 0:10:00	Status: processing: 50, 51, 52, queue: 1
+3:27:18: arrival of truck no  54			Status: processing: 50, 51, 52, queue: 2
+3:30:37: arrival of truck no  55			Status: processing: 50, 51, 52, queue: 3
+3:31:17: completion of truck no  50 after 0:10:00	Status: processing: 53, 51, 52, queue: 2
+3:32:52: completion of truck no  51 after 0:10:00	Status: processing: 53, 54, 52, queue: 1
+3:33:11: arrival of truck no  56			Status: processing: 53, 54, 52, queue: 2
+3:33:26: arrival of truck no  57			Status: processing: 53, 54, 52, queue: 3
+3:35:03: completion of truck no  52 after 0:10:44	Status: processing: 53, 54, 55, queue: 2
+3:36:27: arrival of truck no  58			Status: processing: 53, 54, 55, queue: 3
+3:37:49: arrival of truck no  59			Status: processing: 53, 54, 55, queue: 4
+3:41:17: completion of truck no  53 after 0:16:53	Status: processing: 56, 54, 55, queue: 3
+3:42:52: completion of truck no  54 after 0:15:34	Status: processing: 56, 57, 55, queue: 2
+3:43:11: arrival of truck no  60			Status: processing: 56, 57, 55, queue: 3
+3:43:55: arrival of truck no  61			Status: processing: 56, 57, 55, queue: 4
+3:44:58: arrival of truck no  62			Status: processing: 56, 57, 55, queue: 5
+3:45:03: completion of truck no  55 after 0:14:26	Status: processing: 56, 57, 58, queue: 4
+3:51:17: completion of truck no  56 after 0:18:06	Status: processing: 59, 57, 58, queue: 3
+3:51:26: arrival of truck no  63			Status: processing: 59, 57, 58, queue: 4
+3:52:52: completion of truck no  57 after 0:19:26	Status: processing: 59, 60, 58, queue: 3
+3:54:54: arrival of truck no  64			Status: processing: 59, 60, 58, queue: 4
+3:55:03: completion of truck no  58 after 0:18:36	Status: processing: 59, 60, 61, queue: 3
+3:55:45: arrival of truck no  65			Status: processing: 59, 60, 61, queue: 4
+4:01:17: completion of truck no  59 after 0:23:28	Status: processing: 62, 60, 61, queue: 3
+4:02:52: completion of truck no  60 after 0:19:41	Status: processing: 62, 63, 61, queue: 2
+4:03:25: arrival of truck no  66			Status: processing: 62, 63, 61, queue: 3
+4:05:03: completion of truck no  61 after 0:21:08	Status: processing: 62, 63, 64, queue: 2
+4:07:20: arrival of truck no  67			Status: processing: 62, 63, 64, queue: 3
+4:11:17: completion of truck no  62 after 0:26:19	Status: processing: 65, 63, 64, queue: 2
+4:12:52: completion of truck no  63 after 0:21:26	Status: processing: 65, 66, 64, queue: 1
+4:15:03: completion of truck no  64 after 0:20:09	Status: processing: 65, 66, 67, queue: 0
+4:16:29: arrival of truck no  68			Status: processing: 65, 66, 67, queue: 1
+4:19:40: arrival of truck no  69			Status: processing: 65, 66, 67, queue: 2
+4:19:52: arrival of truck no  70			Status: processing: 65, 66, 67, queue: 3
+4:20:29: arrival of truck no  71			Status: processing: 65, 66, 67, queue: 4
+4:20:56: arrival of truck no  72			Status: processing: 65, 66, 67, queue: 5
+4:21:17: completion of truck no  65 after 0:25:32	Status: processing: 68, 66, 67, queue: 4
+4:22:52: completion of truck no  66 after 0:19:27	Status: processing: 68, 69, 67, queue: 3
+4:25:03: completion of truck no  67 after 0:17:43	Status: processing: 68, 69, 70, queue: 2
+4:31:17: completion of truck no  68 after 0:14:48	Status: processing: 71, 69, 70, queue: 1
+4:32:52: completion of truck no  69 after 0:13:12	Status: processing: 71, 72, 70, queue: 0
+4:35:03: completion of truck no  70 after 0:15:11	Status: processing: 71, 72, queue: 0
+4:39:32: arrival of truck no  73			Status: processing: 71, 72, 73, queue: 0
+4:41:17: completion of truck no  71 after 0:20:48	Status: processing: 72, 73, queue: 0
+4:42:52: completion of truck no  72 after 0:21:56	Status: processing: 73, queue: 0
+4:46:54: arrival of truck no  74			Status: processing: 74, 73, queue: 0
+4:49:24: arrival of truck no  75			Status: processing: 74, 75, 73, queue: 0
+4:49:32: completion of truck no  73 after 0:10:00	Status: processing: 74, 75, queue: 0
+4:55:20: arrival of truck no  76			Status: processing: 74, 75, 76, queue: 0
+4:55:59: arrival of truck no  77			Status: processing: 74, 75, 76, queue: 1
+4:56:54: completion of truck no  74 after 0:10:00	Status: processing: 77, 75, 76, queue: 0
+4:59:24: completion of truck no  75 after 0:10:00	Status: processing: 77, 76, queue: 0
+5:02:20: arrival of truck no  78			Status: processing: 77, 78, 76, queue: 0
+5:03:57: arrival of truck no  79			Status: processing: 77, 78, 76, queue: 1
+5:04:06: arrival of truck no  80			Status: processing: 77, 78, 76, queue: 2
+5:05:20: completion of truck no  76 after 0:10:00	Status: processing: 77, 78, 79, queue: 1
+5:06:49: arrival of truck no  81			Status: processing: 77, 78, 79, queue: 2
+5:06:54: completion of truck no  77 after 0:10:55	Status: processing: 80, 78, 79, queue: 1
+5:07:42: arrival of truck no  82			Status: processing: 80, 78, 79, queue: 2
+5:08:38: arrival of truck no  83			Status: processing: 80, 78, 79, queue: 3
+5:09:50: arrival of truck no  84			Status: processing: 80, 78, 79, queue: 4
+5:10:12: arrival of truck no  85			Status: processing: 80, 78, 79, queue: 5
+5:12:20: completion of truck no  78 after 0:10:00	Status: processing: 80, 81, 79, queue: 4
+5:14:09: arrival of truck no  86			Status: processing: 80, 81, 79, queue: 5
+5:14:27: arrival of truck no  87			Status: processing: 80, 81, 79, queue: 6
+5:15:20: completion of truck no  79 after 0:11:23	Status: processing: 80, 81, 82, queue: 5
+5:16:54: completion of truck no  80 after 0:12:48	Status: processing: 83, 81, 82, queue: 4
+5:18:49: arrival of truck no  88			Status: processing: 83, 81, 82, queue: 5
+5:22:20: completion of truck no  81 after 0:15:31	Status: processing: 83, 84, 82, queue: 4
+5:25:04: arrival of truck no  89			Status: processing: 83, 84, 82, queue: 5
+5:25:20: completion of truck no  82 after 0:17:38	Status: processing: 83, 84, 85, queue: 4
+5:26:54: completion of truck no  83 after 0:18:16	Status: processing: 86, 84, 85, queue: 3
+5:29:44: arrival of truck no  90			Status: processing: 86, 84, 85, queue: 4
+5:31:30: arrival of truck no  91			Status: processing: 86, 84, 85, queue: 5
+5:32:20: completion of truck no  84 after 0:22:30	Status: processing: 86, 87, 85, queue: 4
+5:35:20: completion of truck no  85 after 0:25:08	Status: processing: 86, 87, 88, queue: 3
+5:36:39: arrival of truck no  92			Status: processing: 86, 87, 88, queue: 4
+5:36:54: completion of truck no  86 after 0:22:45	Status: processing: 89, 87, 88, queue: 3
+5:39:45: arrival of truck no  93			Status: processing: 89, 87, 88, queue: 4
+5:41:49: arrival of truck no  94			Status: processing: 89, 87, 88, queue: 5
+5:42:20: completion of truck no  87 after 0:27:53	Status: processing: 89, 90, 88, queue: 4
+5:45:20: completion of truck no  88 after 0:26:31	Status: processing: 89, 90, 91, queue: 3
+5:46:54: completion of truck no  89 after 0:21:50	Status: processing: 92, 90, 91, queue: 2
+5:51:11: arrival of truck no  95			Status: processing: 92, 90, 91, queue: 3
+5:51:56: arrival of truck no  96			Status: processing: 92, 90, 91, queue: 4
+5:52:20: completion of truck no  90 after 0:22:36	Status: processing: 92, 93, 91, queue: 3
+5:55:20: completion of truck no  91 after 0:23:50	Status: processing: 92, 93, 94, queue: 2
+5:56:54: completion of truck no  92 after 0:20:15	Status: processing: 95, 93, 94, queue: 1
+5:58:34: arrival of truck no  97			Status: processing: 95, 93, 94, queue: 2
+6:02:20: completion of truck no  93 after 0:22:35	Status: processing: 95, 96, 94, queue: 1
+6:04:25: arrival of truck no  98			Status: processing: 95, 96, 94, queue: 2
+6:05:20: completion of truck no  94 after 0:23:31	Status: processing: 95, 96, 97, queue: 1
+6:06:54: completion of truck no  95 after 0:15:43	Status: processing: 98, 96, 97, queue: 0
+6:07:13: arrival of truck no  99			Status: processing: 98, 96, 97, queue: 1
+6:11:35: arrival of truck no 100			Status: processing: 98, 96, 97, queue: 2
+6:12:20: completion of truck no  96 after 0:20:24	Status: processing: 98, 99, 97, queue: 1
+6:13:34: arrival of truck no 101			Status: processing: 98, 99, 97, queue: 2
+6:15:20: completion of truck no  97 after 0:16:46	Status: processing: 98, 99, 100, queue: 1
+6:16:14: arrival of truck no 102			Status: processing: 98, 99, 100, queue: 2
+6:16:54: completion of truck no  98 after 0:12:29	Status: processing: 101, 99, 100, queue: 1
+6:17:22: arrival of truck no 103			Status: processing: 101, 99, 100, queue: 2
+6:22:20: completion of truck no  99 after 0:15:07	Status: processing: 101, 102, 100, queue: 1
+6:25:20: completion of truck no 100 after 0:13:45	Status: processing: 101, 102, 103, queue: 0
+6:26:36: arrival of truck no 104			Status: processing: 101, 102, 103, queue: 1
+6:26:54: completion of truck no 101 after 0:13:20	Status: processing: 104, 102, 103, queue: 0
+6:28:08: arrival of truck no 105			Status: processing: 104, 102, 103, queue: 1
+6:30:17: arrival of truck no 106			Status: processing: 104, 102, 103, queue: 2
+6:32:20: completion of truck no 102 after 0:16:06	Status: processing: 104, 105, 103, queue: 1
+6:35:20: completion of truck no 103 after 0:17:58	Status: processing: 104, 105, 106, queue: 0
+6:36:54: completion of truck no 104 after 0:10:18	Status: processing: 105, 106, queue: 0
+6:37:29: arrival of truck no 107			Status: processing: 107, 105, 106, queue: 0
+6:38:03: arrival of truck no 108			Status: processing: 107, 105, 106, queue: 1
+6:41:32: arrival of truck no 109			Status: processing: 107, 105, 106, queue: 2
+6:42:20: completion of truck no 105 after 0:14:12	Status: processing: 107, 108, 106, queue: 1
+6:45:20: completion of truck no 106 after 0:15:03	Status: processing: 107, 108, 109, queue: 0
+6:47:29: completion of truck no 107 after 0:10:00	Status: processing: 108, 109, queue: 0
+6:49:44: arrival of truck no 110			Status: processing: 110, 108, 109, queue: 0
+6:52:20: completion of truck no 108 after 0:14:17	Status: processing: 110, 109, queue: 0
+6:54:47: arrival of truck no 111			Status: processing: 110, 111, 109, queue: 0
+6:55:20: completion of truck no 109 after 0:13:48	Status: processing: 110, 111, queue: 0
+6:59:44: completion of truck no 110 after 0:10:00	Status: processing: 111, queue: 0
+7:04:47: completion of truck no 111 after 0:10:00	Status: processing: queue: 0
+7:05:50: arrival of truck no 112			Status: processing: 112, queue: 0
+7:12:22: arrival of truck no 113			Status: processing: 112, 113, queue: 0
+7:13:10: arrival of truck no 114			Status: processing: 112, 113, 114, queue: 0
+7:15:49: arrival of truck no 115			Status: processing: 112, 113, 114, queue: 1
+7:15:50: completion of truck no 112 after 0:10:00	Status: processing: 115, 113, 114, queue: 0
+7:22:22: completion of truck no 113 after 0:10:00	Status: processing: 115, 114, queue: 0
+7:23:10: completion of truck no 114 after 0:10:00	Status: processing: 115, queue: 0
+7:25:50: completion of truck no 115 after 0:10:01	Status: processing: queue: 0
+7:33:37: arrival of truck no 116			Status: processing: 116, queue: 0
+7:34:58: arrival of truck no 117			Status: processing: 116, 117, queue: 0
+7:38:20: arrival of truck no 118			Status: processing: 116, 117, 118, queue: 0
+7:40:00: arrival of truck no 119			Status: processing: 116, 117, 118, queue: 1
+7:40:11: arrival of truck no 120			Status: processing: 116, 117, 118, queue: 2
+7:40:14: arrival of truck no 121			Status: processing: 116, 117, 118, queue: 3
+7:43:37: completion of truck no 116 after 0:10:00	Status: processing: 119, 117, 118, queue: 2
+7:44:58: completion of truck no 117 after 0:10:00	Status: processing: 119, 120, 118, queue: 1
+7:44:59: arrival of truck no 122			Status: processing: 119, 120, 118, queue: 2
+7:45:59: arrival of truck no 123			Status: processing: 119, 120, 118, queue: 3
+7:47:25: arrival of truck no 124			Status: processing: 119, 120, 118, queue: 4
+7:48:20: completion of truck no 118 after 0:10:00	Status: processing: 119, 120, 121, queue: 3
+7:51:23: arrival of truck no 125			Status: processing: 119, 120, 121, queue: 4
+7:53:37: completion of truck no 119 after 0:13:37	Status: processing: 122, 120, 121, queue: 3
+7:54:58: completion of truck no 120 after 0:14:47	Status: processing: 122, 123, 121, queue: 2
+7:55:40: arrival of truck no 126			Status: processing: 122, 123, 121, queue: 3
+7:58:20: completion of truck no 121 after 0:18:06	Status: processing: 122, 123, 124, queue: 2
+8:01:14: arrival of truck no 127			Status: processing: 122, 123, 124, queue: 3
+8:03:37: completion of truck no 122 after 0:18:38	Status: processing: 125, 123, 124, queue: 2
+8:04:36: arrival of truck no 128			Status: processing: 125, 123, 124, queue: 3
+8:04:58: completion of truck no 123 after 0:18:59	Status: processing: 125, 126, 124, queue: 2
+8:05:22: arrival of truck no 129			Status: processing: 125, 126, 124, queue: 3
+8:06:44: arrival of truck no 130			Status: processing: 125, 126, 124, queue: 4
+8:08:20: completion of truck no 124 after 0:20:55	Status: processing: 125, 126, 127, queue: 3
+8:09:55: arrival of truck no 131			Status: processing: 125, 126, 127, queue: 4
+8:13:20: arrival of truck no 132			Status: processing: 125, 126, 127, queue: 5
+8:13:37: completion of truck no 125 after 0:22:14	Status: processing: 128, 126, 127, queue: 4
+8:14:58: completion of truck no 126 after 0:19:18	Status: processing: 128, 129, 127, queue: 3
+8:18:20: completion of truck no 127 after 0:17:06	Status: processing: 128, 129, 130, queue: 2
+8:22:17: arrival of truck no 133			Status: processing: 128, 129, 130, queue: 3
+8:23:37: completion of truck no 128 after 0:19:01	Status: processing: 131, 129, 130, queue: 2
+8:24:39: arrival of truck no 134			Status: processing: 131, 129, 130, queue: 3
+8:24:58: completion of truck no 129 after 0:19:36	Status: processing: 131, 132, 130, queue: 2
+8:27:47: arrival of truck no 135			Status: processing: 131, 132, 130, queue: 3
+8:28:20: completion of truck no 130 after 0:21:36	Status: processing: 131, 132, 133, queue: 2
+8:31:36: arrival of truck no 136			Status: processing: 131, 132, 133, queue: 3
+8:33:37: completion of truck no 131 after 0:23:42	Status: processing: 134, 132, 133, queue: 2
+8:34:58: completion of truck no 132 after 0:21:38	Status: processing: 134, 135, 133, queue: 1
+8:38:20: completion of truck no 133 after 0:16:03	Status: processing: 134, 135, 136, queue: 0
+8:38:46: arrival of truck no 137			Status: processing: 134, 135, 136, queue: 1
+8:43:37: completion of truck no 134 after 0:18:58	Status: processing: 137, 135, 136, queue: 0
+8:44:58: completion of truck no 135 after 0:17:11	Status: processing: 137, 136, queue: 0
+8:47:19: arrival of truck no 138			Status: processing: 137, 138, 136, queue: 0
+8:48:20: completion of truck no 136 after 0:16:44	Status: processing: 137, 138, queue: 0
+8:53:37: completion of truck no 137 after 0:14:51	Status: processing: 138, queue: 0
+8:54:54: arrival of truck no 139			Status: processing: 139, 138, queue: 0
+8:54:59: arrival of truck no 140			Status: processing: 139, 138, 140, queue: 0
+8:57:19: completion of truck no 138 after 0:10:00	Status: processing: 139, 140, queue: 0
+9:00:47: arrival of truck no 141			Status: processing: 139, 141, 140, queue: 0
+9:03:10: arrival of truck no 142			Status: processing: 139, 141, 140, queue: 1
+9:04:54: completion of truck no 139 after 0:10:00	Status: processing: 142, 141, 140, queue: 0
+9:04:59: completion of truck no 140 after 0:10:00	Status: processing: 142, 141, queue: 0
+9:10:47: completion of truck no 141 after 0:10:00	Status: processing: 142, queue: 0
+9:14:54: completion of truck no 142 after 0:11:44	Status: processing: queue: 0
+9:16:30: arrival of truck no 143			Status: processing: 143, queue: 0
+9:16:47: arrival of truck no 144			Status: processing: 143, 144, queue: 0
+9:26:30: completion of truck no 143 after 0:10:00	Status: processing: 144, queue: 0
+9:26:47: completion of truck no 144 after 0:10:00	Status: processing: queue: 0
+9:31:35: arrival of truck no 145			Status: processing: 145, queue: 0
+9:32:23: arrival of truck no 146			Status: processing: 145, 146, queue: 0
+9:34:03: arrival of truck no 147			Status: processing: 145, 146, 147, queue: 0
+9:34:22: arrival of truck no 148			Status: processing: 145, 146, 147, queue: 1
+9:36:46: arrival of truck no 149			Status: processing: 145, 146, 147, queue: 2
+9:38:18: arrival of truck no 150			Status: processing: 145, 146, 147, queue: 3
+9:41:35: completion of truck no 145 after 0:10:00	Status: processing: 148, 146, 147, queue: 2
+9:42:23: completion of truck no 146 after 0:10:00	Status: processing: 148, 149, 147, queue: 1
+9:42:33: arrival of truck no 151			Status: processing: 148, 149, 147, queue: 2
+9:44:03: completion of truck no 147 after 0:10:00	Status: processing: 148, 149, 150, queue: 1
+9:48:29: arrival of truck no 152			Status: processing: 148, 149, 150, queue: 2
+9:50:35: arrival of truck no 153			Status: processing: 148, 149, 150, queue: 3
+9:51:35: completion of truck no 148 after 0:17:13	Status: processing: 151, 149, 150, queue: 2
+9:52:23: completion of truck no 149 after 0:15:37	Status: processing: 151, 152, 150, queue: 1
+9:53:09: arrival of truck no 154			Status: processing: 151, 152, 150, queue: 2
+9:54:03: completion of truck no 150 after 0:15:45	Status: processing: 151, 152, 153, queue: 1
+9:58:04: arrival of truck no 155			Status: processing: 151, 152, 153, queue: 2
+10:01:35: completion of truck no 151 after 0:19:02	Status: processing: 154, 152, 153, queue: 1
+10:02:23: completion of truck no 152 after 0:13:54	Status: processing: 154, 155, 153, queue: 0
+10:04:03: completion of truck no 153 after 0:13:28	Status: processing: 154, 155, queue: 0
+10:08:03: arrival of truck no 156			Status: processing: 154, 155, 156, queue: 0
+10:10:17: arrival of truck no 157			Status: processing: 154, 155, 156, queue: 1
+10:11:35: completion of truck no 154 after 0:18:26	Status: processing: 157, 155, 156, queue: 0
+10:12:23: completion of truck no 155 after 0:14:19	Status: processing: 157, 156, queue: 0
+10:15:24: arrival of truck no 158			Status: processing: 157, 158, 156, queue: 0
+10:16:09: arrival of truck no 159			Status: processing: 157, 158, 156, queue: 1
+10:16:56: arrival of truck no 160			Status: processing: 157, 158, 156, queue: 2
+10:18:03: completion of truck no 156 after 0:10:00	Status: processing: 157, 158, 159, queue: 1
+10:18:59: arrival of truck no 161			Status: processing: 157, 158, 159, queue: 2
+10:21:35: completion of truck no 157 after 0:11:18	Status: processing: 160, 158, 159, queue: 1
+10:25:24: completion of truck no 158 after 0:10:00	Status: processing: 160, 161, 159, queue: 0
+10:26:42: arrival of truck no 162			Status: processing: 160, 161, 159, queue: 1
+10:28:03: completion of truck no 159 after 0:11:54	Status: processing: 160, 161, 162, queue: 0
+10:28:06: arrival of truck no 163			Status: processing: 160, 161, 162, queue: 1
+10:31:10: arrival of truck no 164			Status: processing: 160, 161, 162, queue: 2
+10:31:35: completion of truck no 160 after 0:14:39	Status: processing: 163, 161, 162, queue: 1
+10:35:24: completion of truck no 161 after 0:16:25	Status: processing: 163, 164, 162, queue: 0
+10:38:03: completion of truck no 162 after 0:11:21	Status: processing: 163, 164, queue: 0
+10:41:35: completion of truck no 163 after 0:13:29	Status: processing: 164, queue: 0
+10:44:36: arrival of truck no 165			Status: processing: 165, 164, queue: 0
+10:44:43: arrival of truck no 166			Status: processing: 165, 164, 166, queue: 0
+10:45:24: completion of truck no 164 after 0:14:14	Status: processing: 165, 166, queue: 0
+10:45:48: arrival of truck no 167			Status: processing: 165, 167, 166, queue: 0
+10:48:23: arrival of truck no 168			Status: processing: 165, 167, 166, queue: 1
+10:50:20: arrival of truck no 169			Status: processing: 165, 167, 166, queue: 2
+10:54:36: completion of truck no 165 after 0:10:00	Status: processing: 168, 167, 166, queue: 1
+10:54:43: completion of truck no 166 after 0:10:00	Status: processing: 168, 167, 169, queue: 0
+10:55:48: completion of truck no 167 after 0:10:00	Status: processing: 168, 169, queue: 0
+11:02:12: arrival of truck no 170			Status: processing: 168, 170, 169, queue: 0
+11:03:39: arrival of truck no 171			Status: processing: 168, 170, 169, queue: 1
+11:04:36: completion of truck no 168 after 0:16:13	Status: processing: 171, 170, 169, queue: 0
+11:04:43: completion of truck no 169 after 0:14:23	Status: processing: 171, 170, queue: 0
+11:12:12: completion of truck no 170 after 0:10:00	Status: processing: 171, queue: 0
+11:12:25: arrival of truck no 172			Status: processing: 171, 172, queue: 0
+11:13:57: arrival of truck no 173			Status: processing: 171, 172, 173, queue: 0
+11:14:36: completion of truck no 171 after 0:10:57	Status: processing: 172, 173, queue: 0
+11:14:54: arrival of truck no 174			Status: processing: 174, 172, 173, queue: 0
+11:16:08: arrival of truck no 175			Status: processing: 174, 172, 173, queue: 1
+11:16:12: arrival of truck no 176			Status: processing: 174, 172, 173, queue: 2
+11:22:25: completion of truck no 172 after 0:10:00	Status: processing: 174, 175, 173, queue: 1
+11:23:57: completion of truck no 173 after 0:10:00	Status: processing: 174, 175, 176, queue: 0
+11:24:41: arrival of truck no 177			Status: processing: 174, 175, 176, queue: 1
+11:24:54: completion of truck no 174 after 0:10:00	Status: processing: 177, 175, 176, queue: 0
+11:27:41: arrival of truck no 178			Status: processing: 177, 175, 176, queue: 1
+11:32:25: completion of truck no 175 after 0:16:17	Status: processing: 177, 178, 176, queue: 0
+11:33:19: arrival of truck no 179			Status: processing: 177, 178, 176, queue: 1
+11:33:57: completion of truck no 176 after 0:17:45	Status: processing: 177, 178, 179, queue: 0
+11:34:54: completion of truck no 177 after 0:10:13	Status: processing: 178, 179, queue: 0
+11:42:02: arrival of truck no 180			Status: processing: 180, 178, 179, queue: 0
+11:42:25: completion of truck no 178 after 0:14:44	Status: processing: 180, 179, queue: 0
+11:43:57: completion of truck no 179 after 0:10:38	Status: processing: 180, queue: 0
+11:47:24: arrival of truck no 181			Status: processing: 180, 181, queue: 0
+11:49:42: arrival of truck no 182			Status: processing: 180, 181, 182, queue: 0
+11:50:51: arrival of truck no 183			Status: processing: 180, 181, 182, queue: 1
+11:52:02: completion of truck no 180 after 0:10:00	Status: processing: 183, 181, 182, queue: 0
+11:56:35: arrival of truck no 184			Status: processing: 183, 181, 182, queue: 1
+11:57:24: completion of truck no 181 after 0:10:00	Status: processing: 183, 184, 182, queue: 0
+11:59:42: completion of truck no 182 after 0:10:00	Status: processing: 183, 184, queue: 0
+12:00:00: arrival of truck no 185			Status: processing: 183, 184, 185, queue: 0
+12:01:17: arrival of truck no 186			Status: processing: 183, 184, 185, queue: 1
+12:02:02: completion of truck no 183 after 0:11:11	Status: processing: 186, 184, 185, queue: 0
+12:03:02: arrival of truck no 187			Status: processing: 186, 184, 185, queue: 1
+12:03:31: arrival of truck no 188			Status: processing: 186, 184, 185, queue: 2
+12:07:24: completion of truck no 184 after 0:10:49	Status: processing: 186, 187, 185, queue: 1
+12:08:16: arrival of truck no 189			Status: processing: 186, 187, 185, queue: 2
+12:10:00: completion of truck no 185 after 0:10:00	Status: processing: 186, 187, 188, queue: 1
+12:11:15: arrival of truck no 190			Status: processing: 186, 187, 188, queue: 2
+12:12:02: completion of truck no 186 after 0:10:45	Status: processing: 189, 187, 188, queue: 1
+12:17:24: completion of truck no 187 after 0:14:22	Status: processing: 189, 190, 188, queue: 0
+12:20:00: completion of truck no 188 after 0:16:29	Status: processing: 189, 190, queue: 0
+12:22:02: completion of truck no 189 after 0:13:46	Status: processing: 190, queue: 0
+12:25:36: arrival of truck no 191			Status: processing: 191, 190, queue: 0
+12:27:24: completion of truck no 190 after 0:16:09	Status: processing: 191, queue: 0
+12:28:13: arrival of truck no 192			Status: processing: 191, 192, queue: 0
+12:31:12: arrival of truck no 193			Status: processing: 191, 192, 193, queue: 0
+12:32:29: arrival of truck no 194			Status: processing: 191, 192, 193, queue: 1
+12:34:50: arrival of truck no 195			Status: processing: 191, 192, 193, queue: 2
+12:35:36: completion of truck no 191 after 0:10:00	Status: processing: 194, 192, 193, queue: 1
+12:37:21: arrival of truck no 196			Status: processing: 194, 192, 193, queue: 2
+12:38:13: completion of truck no 192 after 0:10:00	Status: processing: 194, 195, 193, queue: 1
+12:41:12: completion of truck no 193 after 0:10:00	Status: processing: 194, 195, 196, queue: 0
+12:41:30: arrival of truck no 197			Status: processing: 194, 195, 196, queue: 1
+12:45:36: completion of truck no 194 after 0:13:07	Status: processing: 197, 195, 196, queue: 0
+12:48:13: completion of truck no 195 after 0:13:23	Status: processing: 197, 196, queue: 0
+12:51:06: arrival of truck no 198			Status: processing: 197, 198, 196, queue: 0
+12:51:12: completion of truck no 196 after 0:13:51	Status: processing: 197, 198, queue: 0
+12:55:36: completion of truck no 197 after 0:14:06	Status: processing: 198, queue: 0
+12:58:52: arrival of truck no 199			Status: processing: 199, 198, queue: 0
+12:59:18: arrival of truck no 200			Status: processing: 199, 198, 200, queue: 0
+13:01:06: completion of truck no 198 after 0:10:00	Status: processing: 199, 200, queue: 0
+13:08:52: completion of truck no 199 after 0:10:00	Status: processing: 200, queue: 0
+13:09:18: completion of truck no 200 after 0:10:00	Status: processing: queue: 0
+Max time is 0:17:53
+Min time is 0:00:00
+Total trucks is 200
+Avg time is 0:04:26

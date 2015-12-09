@@ -1,0 +1,17 @@
+c:\users\joel\documents\visual studio 2013\Projects\Parliament\Parliament\bin\Debug\Parliament.exe.config
+C:\Users\Joel\documents\visual studio 2013\Projects\Parliament\Parliament\bin\Debug\Parliament.exe
+C:\Users\Joel\documents\visual studio 2013\Projects\Parliament\Parliament\bin\Debug\Parliament.pdb
+C:\Users\Joel\documents\visual studio 2013\Projects\Parliament\Parliament\obj\Debug\Parliament.csprojResolveAssemblyReference.cache
+C:\Users\Joel\documents\visual studio 2013\Projects\Parliament\Parliament\obj\Debug\Parliament.Form1.resources
+C:\Users\Joel\documents\visual studio 2013\Projects\Parliament\Parliament\obj\Debug\Parliament.Properties.Resources.resources
+C:\Users\Joel\documents\visual studio 2013\Projects\Parliament\Parliament\obj\Debug\Parliament.view_statuses.resources
+C:\Users\Joel\documents\visual studio 2013\Projects\Parliament\Parliament\obj\Debug\Parliament.csproj.GenerateResource.Cache
+C:\Users\Joel\documents\visual studio 2013\Projects\Parliament\Parliament\obj\Debug\Parliament.exe
+C:\Users\Joel\documents\visual studio 2013\Projects\Parliament\Parliament\obj\Debug\Parliament.pdb
+C:\Users\Joel\documents\visual studio 2013\Projects\Parliament\Parliament\obj\Debug\Parliament.constituency.resources
+C:\Users\Joel\documents\visual studio 2013\Projects\Parliament\Parliament\obj\Debug\Parliament.home.resources
+C:\Users\Joel\documents\visual studio 2013\Projects\Parliament\Parliament\obj\Debug\Parliament.complainant.resources
+C:\Users\Joel\documents\visual studio 2013\Projects\Parliament\Parliament\obj\Debug\Parliament.mps.resources
+C:\Users\Joel\documents\visual studio 2013\Projects\Parliament\Parliament\obj\Debug\Parliament.cases.resources
+C:\Users\Joel\documents\visual studio 2013\Projects\Parliament\Parliament\obj\Debug\Parliament.mp_cases.resources
+C:\Users\Joel\documents\visual studio 2013\Projects\Parliament\Parliament\obj\Debug\Parliament.invoices.resources
